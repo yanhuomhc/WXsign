@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.yanhuo.sign.dal.model"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="mybatis-mapper/SignMapper.xml"/>
+        <mapper resource="mybatis-mapper/CourseMapper.xml"/>
+        <mapper resource="mybatis-mapper/StudentMapper.xml"/>
+        <mapper resource="mybatis-mapper/TeacherMapper.xml"/>
+        <mapper resource="mybatis-mapper/ManagerMapper.xml"/>
+    </mappers>
+</configuration>
